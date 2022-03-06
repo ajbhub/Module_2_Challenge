@@ -110,12 +110,15 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-
+    #prompting user to confirm they would like to save qualifying loans to a new file
+    if questionary.confirm("Would you like to save these qualifying loans to a new file?").ask() and len(qualifying_loans) > 0:
     #created new variable for output path
-    csvsave = questionary.text("Enter a file path for the output csv file (.csv):").ask()
-    csvsave = Path(csvsave)
-    #called the save_csv helper function defined in fileio.py
-    return save_csv(csvsave, qualifying_loans)
+        csvsave = questionary.text("Enter a file path for the output csv file (.csv):").ask()
+        csvsave = Path(csvsave)
+        #called the save_csv helper function defined in fileio.py
+        return save_csv(csvsave, qualifying_loans)
+
+
 
 
 def run():
@@ -131,10 +134,11 @@ def run():
     qualifying_loans = find_qualifying_loans(
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
-
+    if len(qualifying_loans) > 0:
     # Save qualifying loans
-    save_qualifying_loans(qualifying_loans)
+        save_qualifying_loans(qualifying_loans)
 
+    print("Thank you for using the Loan Qualifier Application")
 
 if __name__ == "__main__":
     fire.Fire(run)
