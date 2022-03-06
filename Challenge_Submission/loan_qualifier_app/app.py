@@ -110,9 +110,11 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+
+    #created new variable for output path
     csvsave = questionary.text("Enter a file path for the output csv file (.csv):").ask()
     csvsave = Path(csvsave)
-
+    #called the save_csv helper function defined in fileio.py
     return save_csv(csvsave, qualifying_loans)
 
 
