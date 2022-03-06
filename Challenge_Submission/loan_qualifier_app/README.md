@@ -35,7 +35,7 @@ python app.py
 
 Upon launching the loan qualifier application you will be greeted with the following prompts.
 
-![Loan Qualifier Prompts](prompts.png)
+![Loan Qualifier Prompts](https://github.com/ajbhub/Module_2_Challenge/blob/c66e0639657a93fb0c142e6bca768af051c9fea7/Challenge_Submission/loan_qualifier_app/README.md)
 
 
 ---
