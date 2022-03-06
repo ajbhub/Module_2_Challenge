@@ -35,7 +35,11 @@ python app.py
 
 Upon launching the loan qualifier application you will be greeted with the following prompts.
 
+<<<<<<< HEAD
 ![Image](images/prompts.PNG)
+=======
+![Image](prompts.PNG)
+>>>>>>> 3267c56a902cc623ffb5b7a6030653af2eac28eb
 
 
 ---
