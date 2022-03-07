@@ -134,6 +134,7 @@ def run():
     qualifying_loans = find_qualifying_loans(
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
+    #only allow saving if there is the list of loans is not empty
     if len(qualifying_loans) > 0:
     # Save qualifying loans
         save_qualifying_loans(qualifying_loans)
