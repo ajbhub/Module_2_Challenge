@@ -1,0 +1,50 @@
+  148  git commit
+  149  git commit "organizing save functionality to work with prompts"
+  150  git commit "structured save sunction to work with prompts"
+  151  git commit app.py "structured save function to work with prompts"
+  152  git commit
+  153  git commit -m "structured save function to work with prompts and adding a new image file"
+  154  git push
+  155  git add readme.md
+  156  git status
+  157  git add README.md
+  158  git status
+  159  git commit -m "adding new readme file"
+  160  git push
+  161  python app.py
+  162  cd ..
+  163  git add loan_qualifier_app
+  164  git status
+  165  git add loan_qualifier_app
+  166  git status
+  167  git commit -m "updating image and all auxillary files"
+  168  git push
+  169  git add loan_qualifier_app
+  170  git status
+  171  git add prompts.png
+  172  git status
+  173  git status
+  174  git add loan_qualifier_app
+  175  git status
+  176  git commit -m "troubleshooting prompt picture by changing location"
+  177  git push
+  178  git commit loan_qualification_app
+  179  git add loan_qualification_app
+  180  git add loan_qualifier_app
+  181  git status
+  182  git commit -m "changed picture to use permalink"
+  183  git push
+  184  git add loan_qualifier_app
+  185  git commit -m "recommiting with updates to correct image visibility"
+  186  git push
+  187  git pull
+  188  git add loan_qualifier_app
+  189  git commit -m "recommiting due to changes made within github on readme"
+  190  git push
+  191  cd loan_qualifier_app
+  192  git add README.md
+  193  git commit -m "forgot to save readme file before push"
+  194  git push
+  195  cd ..
+  196  cd loan_qualifier_app
+  197  history 50 > terminal_history.txt
